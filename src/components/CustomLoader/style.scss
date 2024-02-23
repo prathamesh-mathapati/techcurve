@@ -1,0 +1,20 @@
+.custom-loader {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // background-color: #cccccca8;
+  width: 100%;
+  height: -webkit-fill-available;
+  .custom-process-loader {
+    width: 15%;
+    font-size: 35px;
+  }
+  p {
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}

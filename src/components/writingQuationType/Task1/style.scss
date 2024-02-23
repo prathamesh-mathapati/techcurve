@@ -1,0 +1,148 @@
+.writing-section-task-1 {
+    .writing-section-question-titel {
+        border-bottom: 1px solid #ced4da;
+        padding: 5px 5px;
+    }
+
+    .word-count {
+        float: right;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .paragraph-question-paragraph {
+        font-size: 13px;
+        font-weight: 400;
+        max-height: 21rem;
+        overflow-y: auto;
+
+        h3 {
+            font-size: 12px;
+        }
+
+        h5,
+        h2 {
+            font-size: 16px;
+
+        }
+
+        img {
+            width: 80%;
+        }
+
+
+
+
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 0px;
+            line-height: 22px;
+            color: #000;
+        }
+
+        p b {
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        h3 {
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 0px;
+            color: #000;
+            font-weight: 500;
+        }
+
+        h5 {
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 0px;
+            line-height: 45px;
+            color: #000;
+
+
+        }
+
+        .table-heding {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .passage-heading {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 22px;
+            text-decoration: underline;
+            font-weight: 600;
+        }
+
+        .p-mt-20 {
+            margin-top: 20px;
+        }
+
+        .one-word-note {
+            margin-top: 20px;
+            padding-left: 17px;
+        }
+
+        .one-word-note ul li {
+            margin-bottom: 3px;
+        }
+
+        .one-word-note ul li p {
+            font-weight: 400;
+        }
+
+        .one-word-note ul li p input:-moz-placeholder-shown {
+            font-weight: 500;
+            color: #000;
+        }
+
+        .one-word-note ul li p input:placeholder-shown {
+            font-weight: 500;
+            color: #000;
+        }
+
+        table {
+            border: 1px solid #ccc;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table thead tr th {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        table tbody tr td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        table tbody tr th {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+
+
+        /*# sourceMappingURL=style.css.map */
+    }
+
+    .writing-Task-1-img {
+        width: 100%;
+    }
+
+    form {
+        .form-control {
+            height: 300px;
+            max-height: 300px;
+        }
+    }
+
+
+}

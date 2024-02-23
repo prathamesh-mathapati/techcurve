@@ -1,0 +1,31 @@
+.listening-short-answer {
+
+    .listening-short-answer-total {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .quation-choose-titel {
+        font-size: 13px;
+    }
+
+    .quation-choose-subtitel {
+        font-size: 16px;
+    }
+
+    .listening-short-answer-questions {
+        font-size: 14px;
+        line-height: 25px;
+
+        input {
+            width: 20%;
+            height: 22px;
+            margin: 0px 4px;
+        }
+
+        .active-input {
+            background: #f3f3f3;
+        }
+    }
+
+}

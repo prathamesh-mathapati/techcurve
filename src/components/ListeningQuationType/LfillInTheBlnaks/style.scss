@@ -1,0 +1,32 @@
+.listening-fill-in-the-blanks {
+
+    .listening-fill-in-the-questions-total {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .quation-choose-titel {
+        font-size: 13px;
+    }
+
+    .quation-choose-subtitel {
+        font-size: 16px;
+    }
+
+    .listening-fill-in-the-questions {
+        font-size: 14px;
+        line-height: 25px;
+        list-style: none;
+
+        input {
+            width: 100px;
+            height: 22px;
+            margin: 0px 4px;
+        }
+
+        .active-input {
+            background: #f3f3f3;
+        }
+    }
+
+}

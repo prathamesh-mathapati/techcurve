@@ -1,0 +1,18 @@
+.mic-sound-section {
+    display: flex;
+    background-color: #d8e5f5;
+    height: 100vh;
+
+    .main-sound-section {
+        width: 760px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        // .sound-check,
+        .microphone-check {
+            // margin-bottom: 20px; 
+        }
+    }
+}

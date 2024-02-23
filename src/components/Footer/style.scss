@@ -1,0 +1,109 @@
+.main-footer-waper {
+    padding: 1px;
+    border-top: 8px solid #e0dede;
+    height: 34px;
+
+    .footer-pagination {
+        padding-top: 10px;
+
+        .footer-pagination-nav {
+            overflow-y: auto;
+            height: 34px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 600;
+            padding: 1px 5px;
+        }
+
+        ul {
+            border-radius: 0px;
+
+            li {
+                margin: 1px;
+
+                a {
+
+                    border: none;
+                    background-color: black;
+                    color: white;
+                    border-radius: 2px !important;
+                    font-size: 12px;
+                    padding: 0px;
+                    width: 18px;
+                    text-align: center;
+                    border: 1px solid black;
+
+                }
+            }
+        }
+
+        .active {
+            .page-link {
+
+                background: #00aca3 !important;
+                border: none;
+                border-radius: 2px !important;
+                font-size: 12px;
+                padding: 0px;
+                width: 22px;
+                text-align: center;
+                color: white !important;
+                border: 1px solid #00aca3;
+
+            }
+        }
+
+        .footer-pagination-arrows {
+            display: flex;
+            justify-content: space-around;
+
+            svg {
+                font-size: 25px;
+                color: #00aca3;
+            }
+
+        }
+
+        .form-check {
+            display: flex;
+            justify-content: center;
+
+            .form-check-input {
+                margin-right: 5px;
+            }
+
+            .form-check-label {
+                font-weight: 300;
+                font-size: 14px;
+
+            }
+        }
+
+        .review-class,
+        .active-pagination-btn {
+            .page-link {
+
+                background: linear-gradient(162deg, #ffd300, #c6219b) !important;
+            }
+        }
+
+        .attend-pagination-btn {
+
+            .page-link {
+                text-decoration: underline;
+                background: linear-gradient(305deg, #d0d0d0, transparent);
+                color: black;
+                border: 1px solid #d0d0d0;
+            }
+
+        }
+    }
+}
+
+//for mobile devices 
+@media only screen and (min-width: 320px) and (max-width: 520px) {}
+
+//medium deviecs
+@media only screen and (min-width: 521px) and (max-width: 767px) {}

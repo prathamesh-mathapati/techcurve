@@ -1,0 +1,44 @@
+.lesting-tablefillintheblanks-question-type {
+    padding-top: 14px;
+    font-size: 14px;
+
+    .heding-table {
+        border-right: none;
+        padding-left: 10px;
+    }
+
+    .table {
+        width: 75%;
+    }
+
+    .tablefillintheblanks-question-total {
+        font-weight: 600;
+    }
+
+    // .question-choose-titel {}
+
+    tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    tr {
+        border-width: 1px;
+    }
+
+    input {
+        width: 100px;
+        height: 22px;
+        margin: 0px 4px;
+    }
+
+    .table-input {
+        background: #f3f3f3;
+    }
+
+    tr,
+    th {
+        line-height: 44px;
+        padding-left: 10px !important;
+    }
+}

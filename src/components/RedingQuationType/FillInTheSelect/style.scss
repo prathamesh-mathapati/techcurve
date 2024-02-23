@@ -1,0 +1,33 @@
+.FillInTheSelect-question-type {
+    .FillInTheSelect-question {
+        .FillInTheSelect-question-total {}
+
+        .FillInTheSelect-choose-titel {
+            font-size: 12px !important;
+
+        }
+
+        .opation-choose-waper {
+            font-size: 13px !important;
+            background-color: #f3f3f3;
+            color: black;
+            padding: 1.5rem;
+            font-weight: 500;
+
+            .form-select {
+                font-size: 12px;
+                padding: 5px;
+                width: 100px;
+                margin-left: 10px;
+
+            }
+
+            .from-select-active {
+                background: #f3f3f3;
+                font-weight: 600;
+            }
+
+        }
+
+    }
+}
